@@ -1,0 +1,29 @@
+<div class="container">
+<h1> {{title}}</h1>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <a class="navbar-brand" href="#">AngularForms</a>
+  <ul class="navbar-nav">
+
+      <li class="nav-item active">
+
+        <a class="nav-link" [routerLink]="['/Register']">RegisterTemplateForm</a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="#">RegisterReactForm</a>
+
+      </li>
+
+    
+
+    </ul>
+</nav>
+<router-outlet></router-outlet>
+
+
+<app-register></app-register>
+<router-outlet></router-outlet>
